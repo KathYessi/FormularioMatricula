@@ -1,5 +1,6 @@
-using Microsoft.AspNetCore.Mvc;
+
 using matricula.Models;
+using Microsoft.AspNetCore.Mvc;
 
 
 namespace matricula.Controllers
@@ -11,11 +12,6 @@ namespace matricula.Controllers
             return View();
         }
 
-        [HttpPost]
-        public IActionResult Registro(Alumno objregistrar)
-        {
-           
-        }
         
     }
 }
